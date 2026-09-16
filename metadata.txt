@@ -1,0 +1,16 @@
+[general]
+name=QuickSentinel
+qgisMinimumVersion=3.16
+description=Busca e baixa imagens Sentinel-2 (Copernicus Data Space) direto no QGIS, com composicoes de banda prontas (cor real, falsa cor, NDVI) e fallback automatico de resolucao.
+version=1.0.0
+author=Poliana Betella
+email=betella.poliana@gmail.com
+about=Plugin QGIS para automatizar a busca e o download de imagens de satelite Sentinel-2 usando a API publica do Copernicus Data Space Ecosystem (Sentinel Hub). Define a area de interesse pela extensao atual do mapa ou por uma camada de poligono, filtra por intervalo de datas e cobertura maxima de nuvens, baixa em paralelo (varias cenas ao mesmo tempo) e cai automaticamente para uma resolucao mais baixa se a resolucao pedida falhar. As credenciais (client ID / client secret OAuth2, gratuitas em dataspace.copernicus.eu) ficam salvas localmente nas configuracoes do QGIS, nunca no codigo do plugin.
+category=Raster
+tags=sentinel,sentinel-2,copernicus,satelite,ndvi,sensoriamento remoto,imagem de satelite,geoprocessamento
+homepage=https://github.com/poliana-betella/QuickSentinel
+tracker=https://github.com/poliana-betella/QuickSentinel/issues
+repository=https://github.com/poliana-betella/QuickSentinel
+experimental=False
+deprecated=False
+server=False
